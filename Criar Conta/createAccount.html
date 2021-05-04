@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy | Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class='registerArea'>
+    <h1>Registro</h1>
+
+
+    <h2>É hora de adentrar a Galaxy</h2>
+    
+        
+       
+
+            <h3>Vamos começar pelo básico</h3>
+
+            <div class="nomes">
+        <div><label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+
+
+    </div>
+
+    
+
+    <h3>Agora os principais</h3>
+
+
+        <div class='email'>
+    <label for="newEmail">Email:</label>
+    <input type="email" name="email" id="newEmail" required>
+</div>
+
+    <div class="senha">
+        <label for="newPassword">Senha:</label>
+        <input type="password" name="password" id="newPassword" required>
+    </div>
+
+
+<h3>Por último...</h3>
+
+<div class='idade'>
+    <label for="bornDate">Data de Nascimento:</label>
+    <input type="date" name="bornDate" id="bornDate" required>
+</div>
+
+<div class='cidade'>
+    <label for="stateAndCity">Cidade e Estado:</label>
+    <input type="text" name="city" id="city">
+</div>
+
+    <input type="submit" value="Criar" id='button' onclick="addAccount()">
+        
+    </div>
+</div>
+    <img src="fotoDeFundo.svg" alt="">
+
+    <script src='../script.js'></script>
+</body>
+</html>

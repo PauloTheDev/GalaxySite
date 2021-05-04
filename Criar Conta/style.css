@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+
+
+@keyframes colorize {
+    0%{
+        width: 10px;
+        height: 0px;
+        background-color: #464CEA;
+        
+    }
+
+    50%{
+        width: 250px;
+        height: 0px;
+        background-color: #464CEA
+    }
+
+
+    100%{
+        width: 350px;
+        height: 125px;
+        background-color: #464CEA
+    }
+}
+
+body{
+    font-family: "Noto Sans JP";
+    background-color: #ffffff;
+    display:flex
+}
+
+h1{
+    font-size: 5em;
+    font-family: "Noto Sans JP";
+    animation: colorize 3s forwards;
+}
+
+.registerArea{
+    width: 60vw;
+    
+
+}
+
+input{
+    transition-property: border-bottom;
+    transition-duration: 1s;
+    border:0;
+    border-bottom: 3px solid grey;
+    width:500px;
+    outline: 0;
+
+}
+
+#sobrenome{
+    width: 450px;
+}
+
+#bornDate{
+    width: 150px;
+}
+
+#city{
+    width:400px;
+}
+
+input:focus{
+    border-bottom: 2px solid #464CEA;
+    font-size: 1em;
+
+}
+
+
+#button{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    font-family: Arial;
+    text-transform: uppercase;
+    transition-property: background-color, font-weight, color;
+    transition-duration: 1s;
+}
+
+#button:hover{
+    background-color: #464CEA;
+    font-weight: bold;
+    color:white
+}
+
+img{
+    max-width: 500px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
