@@ -1,2 +1,3 @@
+![photo_2021-05-02_16-36-15](https://user-images.githubusercontent.com/81721360/116955381-c5cc2a00-ac68-11eb-8984-37ec341e0e6f.jpg)
 # GalaxySite
-Este é um projeto que estou fazendo para demonstrar para mim e para os visitantes dos meus códigos o que eu sei sobre HTML5, CSS3 e  JavaScript.
+Imagem da área inicial
