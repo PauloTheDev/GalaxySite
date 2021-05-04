@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy | Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+
+    <div class='backgroundImage'><img src="undraw_Login_re_4vu2.svg" alt="fundo"></div>
+
+
+   <div class="loginArea">
+    <h1>Login</h1>
+    <h2>É bom te ter de volta</h2>
+
+  <div id="validate"></div>
+
+    <div class="datas">
+
+    <form action="/" method='GET'>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password">
+           
+        </div>
+
+ <a href="" id='forgetPass'>
+                <p>Esqueceu sua senha?</p>
+            </a>
+    </div>
+
+        <input type="button" value="Entrar" id='enter' onclick='validateDatas()'>
+    </form>
+
+
+    <p>Ainda não tem uma conta? <a href="../createAccount/createAccount.html">Crie uma!</a></p>
+
+</div>
+<script src="../script.js"></script>
+
+</body>
+    
+</html>
