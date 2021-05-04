@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy | Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/2x/rocket.png" type="image/x-icon">
+</head>
+<body>
+<header>
+    
+    <h1>Galaxy</h1>
+    
+    
+    <div class="search"><input type="text" name="search" id="search"></div>
+    
+    <nav>
+    <ul class='headerList'>
+        <li><a href="" class='interative'>Menu<div class='menu'>
+
+        </div></a></li>
+        <li><a href="../createAccount/createAccount.html">Resgistro</a></li>
+        <li><a href="../LoginSession/Login.html" rel='next'>Login</a></li>
+    </ul> 
+</nav>
+</header>
+
+<main>
+    <section>
+        <div class='login'>
+            <h2>Login</h2>
+
+            <div class="externalLogins">
+                <a href=""><img src="https://www.shareicon.net/data/256x256/2017/04/11/883742_search_512x512.png" alt="Google" class='sizeImages'></a>
+                <a href=""><img src="https://www.conservation.org/images/default-source/graphics/face.png?sfvrsn=59611aec_2" alt="Facebook" class='sizeImages'></a>
+                <a href=""><img src="https://cdn.iconscout.com/icon/free/png-256/twitter-87-432551.png" alt="Twitter" class='sizeImages'></a>
+            </div>
+            <span>Ou</span>
+            <form action="post" id='form'>
+                <div class='datas'>
+                   <div> <label for="email">Email: </label><input type="email" name="" id="email"> </div>
+                    <br>
+                    <div><label for="password">Senha:</label> <input type="password" id='password'></div>
+                </div>
+            </form>
+
+
+            <div id='validate'>
+                
+            </div>
+
+
+            <input type="button" value="Entrar" id='entrar' onclick='validateDatas()'>
+
+           <p><a href="" class='forgetPass'>Esqueceu sua senha?</a></p>
+        </div>
+    </section>
+
+   
+     <div class="boxImage"> <h1 class='slogan'>A Nova Era <br> Chegou</h1>
+        
+        <img src="undraw_Hiking_re_k0bc.svg" alt="Ilustração Representativa" class="imageBackground">
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

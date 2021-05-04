@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Animações*/
+
+@keyframes upping{
+    0%{
+        transform: translatey(40px);
+        filter: opacity(0);
+    }
+
+   
+    100%{
+        transform: translatey(10px);
+        filter: opacity(100)
+    }
+}
+
+@keyframes openMenu{
+    0%{
+        transform: translatey(-12px);
+        width: 250px;
+        height:10px
+
+    }
+
+    50%{
+        height: 100px
+    }
+}
+
+
+/*Estilização*/
+
+
+body{
+    background: #010326;
+    align-items: center;
+    
+}
+
+main{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    width: 100vw;
+    height:10vh;
+    background-color: #010440;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color:#020659;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1{
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: "Zen Dots", sans-serif;
+    
+
+}
+
+nav{
+    display:flex;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.headerList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0);
+    
+}
+
+li{
+    margin-left: 5px;
+    margin-right:5px;
+    transition-property: box-shadow background-color;
+    transition-duration: 500ms;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#search{
+    width: 700px;
+    height:30px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(0, 0, 0, 0.707);
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-family: Arial;
+    text-transform: capitalize;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    text-indent: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.imageBackground{
+    max-width: 100%;
+    max-height: 100%; 
+    animation: upping 2s forwards ease-in-out;
+   
+}
+
+.boxImage{
+    max-width: 500px;
+    max-height: 500px;
+    transform:translateX(-20px)
+}
+
+.login{
+    width: 300px;
+    height: 400px;
+    border: 3px solid white;
+    background-color:white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    animation: upping 2s forwards ease-in-out}
+
+.externalLogins{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+a{
+    max-width: 60px ;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sizeImages{
+    max-width: 50px;
+
+    
+}
+
+.datas{
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input{
+    border: 1px solid ;
+    width: 200px;
+    height: 20px;
+    font-family: Arial;
+    font-size: 0.9em;
+    text-indent: 3px;
+
+    border:none;
+    border-bottom: 1px solid rgb(0, 65, 245) ;
+    outline: 0;
+}
+
+#entrar{
+    width: 80px;
+    height: 30px;
+    font-family:'Arial' ;
+    margin-bottom: 30px;
+    transition-property: background-color color;
+    transition-duration: 500ms;
+    border-bottom: 0;
+}
+
+#entrar:hover {
+    background-color: #010440;
+    color: white;
+}
+
+#entrar:focus{
+    background: #1241fd;
+
+}
+
+li:hover{
+    background-color: #1241fd;
+    box-shadow: 0px 0px 12px #1241fd;
+}
+
+.forgetPass{
+    color:black
+}
+
+a > .menu{
+    display: none;
+    background-color: white;
+}
+
+a:hover > .menu{ 
+    display:initial;
+    animation: openMenu 2s
+}
+
+.boxImage{
+    position:relative;
+    bottom: 50px;
+}
+
+.slogan{
+    font-family: Arial;
+    color: white;
+    position: relative;
+    left: 80%;
+    top: 300px;
+    width: 200px;
+    animation: upping 3s forwards ease-in-out
+    
+}
+
+#validate{
+    width:200px;
+    height: 200px;
+    background-color:rgb(223, 26, 12);
+    margin-bottom: 12px;
+    color: white;
+    display: none;
+}
+
+#password{
+    margin-bottom: 9px;
+}
+
+/* Responsividade */
+
+
+
